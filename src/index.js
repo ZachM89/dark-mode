@@ -40,7 +40,7 @@ const App = () => {
 
     return (
         <div className={dMode}>
-        <Navbar />
+        <Navbar testDarkMode={testDarkMode} setTestDarkMode={setTestDarkMode}/>
         <Charts coinData={coinData} />
         </div>
     );
